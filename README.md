@@ -2,7 +2,7 @@ A C-MPI parallel program that based on a MxN cartesian topology of tasks, each o
 elements and sends its result to its neighbor (based on the picture below), until task 0 figures
 out the total sum of all elements.
 
-![](https://imgur.com/a/DOYSO)
+![](map.png)
 
 Steps:
 1. calculating local sum for each task
