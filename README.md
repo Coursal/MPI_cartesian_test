@@ -1,3 +1,5 @@
+# MPI_cartesian_test
+
 A C-MPI parallel program that based on a MxN cartesian topology of tasks, each one sums its 
 elements and sends its result to its neighbor (based on the picture below), until task 0 figures
 out the total sum of all elements.
